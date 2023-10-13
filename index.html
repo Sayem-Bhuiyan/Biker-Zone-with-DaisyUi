@@ -27,6 +27,7 @@
                         'slider-p-color': 'rgba(0, 0, 0, 0.80)',
                         'slider-bg-color': 'rgba(231, 111, 81, 0.10)',
                         'card-p-color': '#6C6C6C',
+                        'review-name': '#23A6F0',
                     }
                 }
             }
@@ -208,14 +209,14 @@
         </section>
 
         <!-- latest bike section -->
-        <section class="mb-20 lg:mb-32">
+        <section class="mb-20 lg:mb-24 m-5 md:m-auto">
             <h2 class="text-5xl font-semibold popins text-center mb-12 capitalize">
                 latest Bikes
             </h2>
             <!-- card section -->
             <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-5">
                 <!-- first card -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title text-2xl font-semibold popins">Ducati XDIAVEL S-73</h2>
@@ -226,7 +227,7 @@
                     </div>
                 </div>
                 <!-- second card -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest2.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title text-2xl font-semibold popins">Motorcycles & Scooters</h2>
@@ -237,7 +238,7 @@
                     </div>
                 </div>
                 <!-- first card -->
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest3.png" alt="Shoes" /></figure>
                     <div class="card-body">
                       <h2 class="card-title text-2xl font-semibold popins">2021 Honda CBR500R</h2>
@@ -247,6 +248,89 @@
                       </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- happy client says section -->
+        <section class="mb-24 m-5 md:m-auto">
+            <h2 class="text-5xl font-semibold popins text-center mb-12 capitalize">
+                Happy <span class="text-btn-color">Clients says</span>
+            </h2>
+
+            <!-- review card -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <!-- first card -->
+                <div class="card bg-base-100 shadow-xl border border-[#DEDEDE]">
+                    <figure class="px-10 pt-10">
+                      <img class="h-36" src="/images/others/user-1.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                      <p class="popins text-base leading-6 font-normal text-[#6C6C6C]">Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                      <div class="text-center space-y-4" >
+                        <p class="text-sm font-semibold leading-6 popins text-review-name">Regina Miles</p>
+                        <p class="block text-[#252B42] text-sm font-semibold leading-6 popins">Banker</p>
+                      </div>
+                    </div>
+                  </div>
+                <!-- second card -->
+                <div class="card bg-base-100 shadow-xl border border-[#DEDEDE]">
+                    <figure class="px-10 pt-10">
+                      <img class="h-36" src="/images/others/user-2.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                      <p class="popins text-base leading-6 font-normal text-[#6C6C6C]">Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                      <div class="text-center space-y-4" >
+                        <p class="text-sm font-semibold leading-6 popins text-review-name">Regina Miles</p>
+                        <p class="block text-[#252B42] text-sm font-semibold leading-6 popins">Banker</p>
+                      </div>
+                    </div>
+                  </div>
+                <!-- third card -->
+                <div class="card bg-base-100 shadow-xl border border-[#DEDEDE]">
+                    <figure class="px-10 pt-10">
+                      <img class="h-36" src="/images/others/user-3.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center space-y-4">
+                      <p class="popins text-base leading-6 font-normal text-[#6C6C6C]">Slate helps you see how 
+                        many more days you need 
+                        to work to reach your financial 
+                        goal for the month and year.</p>
+
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                      <div class="text-center space-y-4" >
+                        <p class="text-sm font-semibold leading-6 popins text-review-name">Regina Miles</p>
+                        <p class="block text-[#252B42] text-sm font-semibold leading-6 popins">Banker</p>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </section>
     </main>
